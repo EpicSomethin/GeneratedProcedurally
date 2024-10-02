@@ -24,7 +24,7 @@ public class SimpleRandomWalkDungeonGenerator : AbstractDungeonGenerator
         // this is to see which positions have been added to the floor positions hashset
         }
     }
-
+    //im in uni now
     protected HashSet<Vector2Int> RunRandomWalk(SimpleRandomWalkData parameters, Vector2Int position)//passed im the data, so we can use this method inside child classes of this generator
     {
         var currentPosition = position;
